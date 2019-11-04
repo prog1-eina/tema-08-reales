@@ -22,10 +22,10 @@ double distancia(double x1, double y1, double x2, double y2) {
     return sqrt(dX*dX + dY*dY);
 }
 
+
 /*
- * Pre:  ---
- * Post: Solicita al usuario las coordenadas reales de dos puntos y le informa
- *       de la distancia euclídea ente los mismos.
+ * Programa que solicita al usuario las coordenadas reales de dos puntos y le
+ * informa de la distancia euclídea ente los mismos.
  */
 int main() {
     // Petición de los datos
