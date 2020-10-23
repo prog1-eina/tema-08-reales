@@ -12,7 +12,7 @@
 using namespace std;
 
 /*
- * Programa que muesta cuál es el primer natural no representable como double.
+ * Programa que muestra cuál es el primer natural no representable como double.
  */      
 int main() {
     double x = 9007199254740992;  // 2^53 
