@@ -1,9 +1,9 @@
-/********************************************************************************\
+/******************************************************************************\
  * Curso de Programación 1. Tema 8 (reales)
  * Autores: Javier Martínez y Miguel Ángel Latre
  * Última revisión: 24 de octubre de 2019
  * Resumen: Aproximación al coseno
-\********************************************************************************/
+\******************************************************************************/
 #include <iostream>
 #include <cmath>
 #include <iomanip>
@@ -15,17 +15,17 @@ using namespace std;
  */
 double cos(double x) {
     // Se tiene en cuenta el desarrollo en serie de la función coseno:
-    // cos x = 1 - x2/2! + x4/4! - x6/6! + x8/8! - x10/10! + ...
-    const double COTA = 1.0e-15;
+    // cos x = 1 - x²/2! + x⁴/4! - x⁶/6! + x⁸/8! - x¹⁰/10! + ...
+    const double COTA = 1.0e-15; // 10⁻¹⁵
 
-    int i = 0; // índice del término
-    double termino = 1.0; // termino = (-1)^i·x^(2i)/(2i)!
+    unsigned i = 0; // índice del término
+    double termino = 1.0; // termino = -1ⁱ·x²ⁱ/(2i)!
     double resultado = termino; // resultado = suma términos calculados
 
     while (abs(termino) > COTA) {
         // Se incrementa «resultado» con el siguiente término de la serie:
         i++; // siguiente índice
-        // termino = (-1)^i·x^(2i)/(2i)!
+        // termino = -1ⁱ·x²ⁱ/(2i)!
         termino = -termino * x * x / ((2*i) * (2*i-1));
         // resultado = suma de los términos calculados
         resultado += termino;

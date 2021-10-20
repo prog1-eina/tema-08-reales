@@ -1,10 +1,10 @@
-﻿/*************************************************************************
+﻿/*******************************************************************************
  * Curso de Programación 1. Tema 8
  * Autores: Miguel Ángel Latre
  * Última revisión: 10 de octubre de 2019
  * Resumen: Programa interactivo que permite al usuario calcular la
  *          distancia entre dos puntos del plano.
- ************************************************************************/
+ ******************************************************************************/
 
 #include <iostream>
 #include <iomanip>
