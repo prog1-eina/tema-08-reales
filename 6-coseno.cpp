@@ -19,13 +19,13 @@ double cos(double x) {
     const double COTA = 1.0e-15; // 10⁻¹⁵
 
     unsigned i = 0; // índice del término
-    double termino = 1.0; // termino = -1ⁱ·x²ⁱ/(2i)!
+    double termino = 1.0; // termino = (-1)ⁱ·x²ⁱ/(2i)!
     double resultado = termino; // resultado = suma términos calculados
 
     while (abs(termino) > COTA) {
         // Se incrementa «resultado» con el siguiente término de la serie:
         i++; // siguiente índice
-        // termino = -1ⁱ·x²ⁱ/(2i)!
+        // termino = (-1)ⁱ·x²ⁱ/(2i)!
         termino = -termino * x * x / ((2*i) * (2*i-1));
         // resultado = suma de los términos calculados
         resultado += termino;
