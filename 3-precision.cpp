@@ -4,7 +4,7 @@
  * Última revisión: 23 de octubre de 2018
  * Resumen: Programa que muestra problemas de precisión con datos
  *          de tipo real.
-
+\******************************************************************************/
 #include <iostream>
 using namespace std;
 
