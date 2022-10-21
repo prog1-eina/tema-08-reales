@@ -7,15 +7,21 @@
 \******************************************************************************/
 
 #include <iostream>
+#include <cfloat>
 using namespace std;
 
 /*
- * Programa que demuestra el resultado de un desbordamiento al trabajar con
+ * Programa que muestra el resultado de un desbordamiento al trabajar con
  * datos de tipo real.
  */
 int main() {
-    double x = 1.79769313e308;
-    double y = 2.0 * x;
+    // DBL_MAX es mayor real representable como double. Está definido en <cfloat>
+    // Es un valor próximo a 1.79769313e308
+    double x = DBL_MAX;
+    cout << "x = " << x << endl;
+
+    double y = 1.5 * x;
     cout << "y = " << y << endl;
-    return 0;
+
+    return 1;
 }
