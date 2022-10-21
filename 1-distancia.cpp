@@ -22,7 +22,7 @@ using namespace std;
 
 /*
  * Pre:  ---
- * Post: Ha devuelto la distancia euclídea entre los
+ * Post: Devuelve la distancia euclídea entre los
  *       puntos (x1, y1) y (x2, y2).
  */
 double distancia(double x1, double y1, double x2, double y2) {

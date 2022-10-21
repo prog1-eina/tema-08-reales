@@ -19,7 +19,7 @@ using namespace std;
 
 /*
  * Pre:  ---
- * Post: Ha mostrado un resultado con problemas de precisión.
+ * Post: Muestra un resultado con problemas de precisión.
  */
 int main() {
     double x = 1e20;

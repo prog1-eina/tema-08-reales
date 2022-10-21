@@ -20,7 +20,7 @@ using namespace std;
 
 /*
  * Pre:  El valor de «x» viene expresado en radianes.
- * Post: Ha devuelto una aproximación al valor de cos x.
+ * Post: Devuelve una aproximación al valor de cos x.
  */
 double cos(double x) {
     // Se tiene en cuenta el desarrollo en serie de la función coseno:
