@@ -26,5 +26,5 @@ using namespace std;
 int main() {
     double x = sqrt(-1);
     cout << "x = " << x << endl;
-    return 0;
+    return 1;
 }
