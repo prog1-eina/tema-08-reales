@@ -4,15 +4,15 @@
  * Última revisión: 23 de octubre de 2018
  * Resumen: Programa que demuestra problemas de desbordamiento con datos
  *          de tipo real.
- * Nota: El programa completo está contenido en este fichero, por lo que puede 
- *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 
- *       Code.
- *       También puede compilarse desde la terminal través de la orden
- *           g++ -Wall -Wextra 2-desbordamiento.cpp -o 2-desbordamiento
- *       y ejecutarse en Windows a través de la orden
- *           .\2-desbordamiento.exe
- *       o en Linux y macOS
- *           ./2-desbordamiento
+ * Nota: El programa completo está contenido en este fichero, por lo que puede 
+ *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 
+ *       Code.
+ *       También puede compilarse desde la terminal través de la orden
+ *           g++ -Wall -Wextra 2-desbordamiento.cpp -o 2-desbordamiento
+ *       y ejecutarse en Windows a través de la orden
+ *           .\2-desbordamiento.exe
+ *       o en Linux y macOS
+ *           ./2-desbordamiento
 \******************************************************************************/
 
 #include <iostream>

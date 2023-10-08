@@ -4,15 +4,15 @@
  * Última revisión: 10 de octubre de 2019
  * Resumen: Programa interactivo que permite al usuario calcular la
  *          distancia entre dos puntos del plano.
- * Nota: El programa completo está contenido en este fichero, por lo que puede 
- *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 
- *       Code.
- *       También puede compilarse desde la terminal través de la orden
- *           g++ -Wall -Wextra 1-distancia.cpp -o 1-distancia
- *       y ejecutarse en Windows a través de la orden
- *           .\1-distancia.exe
- *       o en Linux y macOS
- *           ./1-distancia
+ * Nota: El programa completo está contenido en este fichero, por lo que puede 
+ *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 
+ *       Code.
+ *       También puede compilarse desde la terminal través de la orden
+ *           g++ -Wall -Wextra 1-distancia.cpp -o 1-distancia
+ *       y ejecutarse en Windows a través de la orden
+ *           .\1-distancia.exe
+ *       o en Linux y macOS
+ *           ./1-distancia
 \******************************************************************************/
 
 #include <iostream>
