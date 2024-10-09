@@ -27,10 +27,12 @@ using namespace std;
 int main() {
     double x = 9007199254740992;  // 2⁵³ 
     double y = 9007199254740993;  // 2⁵³ + 1
+    double z = 9007199254740994;  // 2⁵³ + 2
     
     cout << fixed;
     cout << "x = " << x << endl;
     cout << "y = " << y << endl;
+    cout << "z = " << z << endl;
     
     return 0;
 }
